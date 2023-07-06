@@ -8,7 +8,6 @@ body {
 
 #bg {
     background-image: url("img/bg.png");
-    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     overflow: hidden;
@@ -20,5 +19,10 @@ body {
       margin-top: -58.59px;
       overflow: hidden;
     }
+  }
+
+  button {
+    background-color: goldenrod !important;
+    color: #016f32 !important;
   }
 
