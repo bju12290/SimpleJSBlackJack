@@ -1,0 +1,24 @@
+h1 {
+    color: goldenrod !important;
+}
+
+body {
+    background-color: green !important;
+}
+
+#bg {
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+      overflow: hidden;
+    }
+  }
+

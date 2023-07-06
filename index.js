@@ -1,18 +1,19 @@
-let firstCard = 11
-let secondCard = 10
+let firstCard = 10
+let secondCard = 11
 let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
+let message = ""
+
 
 if (sum <= 20) {
-    console.log("Hit or Stay? 🤔")
+    message = "Hit or Stay? 🤔"
 } else if (sum === 21) {
-    console.log("Woohoo! Blackjack! 🎉")
     hasBlackJack = true
+    message = "Woohoo! Blackjack! 🎉"
 } else {
-    console.log("Bust! 😭")
     isAlive = false
+    message = "Bust! 😭"
 }
 
-console.log(hasBlackJack)
-console.log(isAlive)
+console.log(message)
