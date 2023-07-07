@@ -21,8 +21,11 @@ body {
     }
   }
 
-  button {
-    background-color: goldenrod !important;
-    color: #016f32 !important;
-  }
+button {
+  background-color: goldenrod !important;
+  color: #016f32 !important;
+}
 
+span {
+  color: goldenrod !important;
+}
